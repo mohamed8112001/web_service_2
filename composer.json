@@ -1,0 +1,11 @@
+{   
+
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "monolog/monolog": " >=1.12.0"
+    },
+    "autoload": {
+        "classmap": ["Model/"],
+        "files": ["config.php"]
+    }
+}
