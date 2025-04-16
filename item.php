@@ -140,7 +140,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['product'])) {
                 : "<p> Error updating product.</p>";
         }
     } else {
-        echo "<p>❌ Product not found.</p>";
+        echo "<p> Product not found.</p>";
     }
 
     echo "</div>";
